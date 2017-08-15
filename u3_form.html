@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang-"es">
+<head>
+	<meta charset = "utf-8" />
+	<title> Ejemplo de Formulario </title>
+	<meta name = "description" content = "" />
+</head>
+<body>
+	<h1> Resultados formularios</h1>
+	<p> 
+		<form name = "mi_formuario" action = "u3_scriptForm.php" method ="POST">
+		<table border = "0">
+		<tbody>
+		<tr>
+			<td> Nombre <td>
+			<td> <input type = "texto" name = "nombre" value = "" /><td>
+		</tr>
+
+		<tr>
+			<td> Apellido<td>
+			<td> <input type = "texto" name = "apellido" value = "" /><td>
+		</tr>
+
+		<tr>
+			<td> Sexo:<td>
+			<td> <input type = "radio" name = "rb" value = "Hombre" /> Hombre<td>
+			<td> <input type = "radio" name = "rb" value = "mujer" />Mujer<td>
+			
+		</tr>
+		
+		<tr>
+			<td> Ocupación <td>
+			<td>
+				<select name ="ocupacion">
+				<option>Estudiante</option>
+				<option>Empleado Público</option>
+				<option>Taxista</option>
+				</select> 
+			<td>
+		</tr>
+
+		<tr>
+			<td>Deportes que practica:<td>
+			<td> <input type="checkbox" name="cb" value="futbol" >Fútbol<td>
+			<td> <input type="checkbox" name="cb" value="besibol" >Beisbol<td>
+			<td> <input type="checkbox" name="cb" value="basquet" >Basquet<td>
+		</tr>
+
+		<tr>
+			<td> Comentarios:<td>
+			<textarea id="ta_comentario" name="comentarios" rows="4" cols="20"></textarea>
+		</tr>		
+	
+		<tr>
+			<td><td>
+			<td> <input type = "submit" name = "Guardar" value = "Guardar"/><td>
+		</tr>
+		</tbody>
+		</table>
+	</form>
+	</p>
+</body>
+</html>
+
+

@@ -1,0 +1,27 @@
+<!Doctype html>
+<html lang="es">
+<head> 
+	<meta charset="utf-8" />
+	<title>Bienvenido.!</title>
+	<meta name="description" content=" " />
+</head>
+<body>
+	<h1>Dime tu nombre</h1>
+	<p>Escribe aqui tu nombre, pero ese nombre no lo voy a guardar yo, lo va a guardar tu programa navegador web</p>
+	<form name="nombre" action="guardar_nombre_en_cookie.php" method="POST">
+	<table border="0">
+	<tbody>
+		<tr>
+			<td>Nombre</td>
+			<td><input type="text" name="nombre" value=""/><td>
+		</tr>
+		<tr>
+			<td></td>
+			<td input type="submit" name="enviar" value="Enviar"/><td>
+		</tr>
+	</tbody>
+	</table>
+	</form>
+<p><a href="ve_el_valor_de_la_cookie.php">Este es el valor que est actualmente en la cookie</a></p>
+</body>
+</html>
